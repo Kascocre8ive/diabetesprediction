@@ -2,10 +2,10 @@
   "metrics": {
     "SVM": {
       "accuracy": 0.8879,
-      "precision": 0.4341,
+      "precision": 0.434,
       "recall": 0.8915,
-      "f1_score": 0.5839,
-      "auc_roc": 0.966
+      "f1_score": 0.5838,
+      "auc_roc": 0.9659
     },
     "Logistic Regression": {
       "accuracy": 0.8802,
@@ -15,37 +15,37 @@
       "auc_roc": 0.9591
     },
     "XGBoost": {
-      "accuracy": 0.9645,
-      "precision": 0.857,
-      "recall": 0.7176,
-      "f1_score": 0.7811,
-      "auc_roc": 0.9724
+      "accuracy": 0.9665,
+      "precision": 0.8823,
+      "recall": 0.7158,
+      "f1_score": 0.7904,
+      "auc_roc": 0.973
     },
     "Hybrid Ensemble": {
-      "accuracy": 0.9603,
-      "precision": 0.7828,
-      "recall": 0.7606,
-      "f1_score": 0.7715,
-      "auc_roc": 0.9725
+      "accuracy": 0.9615,
+      "precision": 0.799,
+      "recall": 0.7524,
+      "f1_score": 0.775,
+      "auc_roc": 0.9726
     }
   },
   "mcnemar": {
     "Hybrid Ensemble vs SVM": {
-      "b": 1653,
-      "c": 262,
-      "statistic": 1008.9295039164491,
+      "b": 1687,
+      "c": 272,
+      "statistic": 1020.6207248596222,
       "p_value": 0.0
     },
     "Hybrid Ensemble vs Logistic Regression": {
-      "b": 1811,
-      "c": 271,
-      "statistic": 1137.6181556195966,
+      "b": 1829,
+      "c": 266,
+      "statistic": 1164.6033412887828,
       "p_value": 0.0
     },
     "Hybrid Ensemble vs XGBoost": {
-      "b": 84,
-      "c": 166,
-      "statistic": 26.244,
+      "b": 67,
+      "c": 164,
+      "statistic": 39.896103896103895,
       "p_value": 0.0
     }
   },
